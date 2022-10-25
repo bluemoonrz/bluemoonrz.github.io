@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #FFF;
+    background-color: #000;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.brand {
+    color: #FFF;
+    background-color: #000;
+
+    height: 100vh;
+
+    cursor: default;
+}
+
+.brand-name > li {
+    list-style: none;
+}
+
+.brand-name {
+    font-family: "roboto mono";
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+    padding-top: 10%;
+    padding-left: 85%;
+}
+
+.about {
+    padding-top: 7.5rem;
+    padding-left: 1.5rem;
+}
+
+.about > h1 {
+    font-family: "roboto";
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.about > a {
+    margin: 0.25rem;
+}
+
+.about > a > img {
+    transition: 250ms;
+}
+.about > a:hover > img {
+    transform: scale(1.1);
+}
