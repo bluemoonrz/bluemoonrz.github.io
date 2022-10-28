@@ -42,8 +42,8 @@ body {
 }
 
 .about {
-    padding-top: 7.5rem;
-    padding-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-left: 1.5rem;    
 }
 
 .about > h1 {
